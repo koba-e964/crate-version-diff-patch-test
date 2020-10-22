@@ -1,0 +1,11 @@
+[package]
+name = "crate-version-diff-patch-test"
+version = "0.1.0"
+authors = ["koba-e964 <3303362+koba-e964@users.noreply.github.com>"]
+edition = "2018"
+
+[dependencies]
+serde = "0.9"
+
+[patch.crates-io]
+serde = { git = "https://github.com/serde-rs/serde", branch = "master" }
